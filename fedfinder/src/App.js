@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './FedReserveLogo.svg';
+import logo from './assets/FedReserveLogo.svg';
 import './App.css';
 
 function App() {
