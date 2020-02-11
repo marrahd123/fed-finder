@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './assets/FedReserveLogo.svg';
+import floor from './assets/floor1.svg';
 import './App.css';
 
 function App() {
@@ -17,11 +18,10 @@ function App() {
       <div className="App-Body">
 
         <div className="App-Display">
-
+          <img src={floor} />
         </div>
-        
         <div className="App-Info">
-
+          <h1 className="Info-Hub">Information Hub</h1>
         </div>
       </div>
     </div>

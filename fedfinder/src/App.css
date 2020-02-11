@@ -34,6 +34,30 @@
   color: white;
 }
 
+.App-Body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  padding: 2vh;
+}
+
+.App-Display {
+  width: 50vw;
+  height: 50vh;
+  align-items: center;
+}
+
+.App-Info {
+  justify-self: flex-end;
+  padding: 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #58595b;
+  width: 30vw;
+  height: 80vh;
+}
+
 .App-link {
   color: #61dafb;
 }
