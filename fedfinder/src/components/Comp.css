@@ -1,30 +1,37 @@
+/* This is the beginnning of CSS for the Info-Hub Component */
 .Info-Hub {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 30vw;
 }
+
+/* .Hub sets the flow of item within the hub to centered and flowing downward */
 .Hub {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 1em;
+    padding-top: 1vh;
 }
 
+/* .Hub-Nav sets the flow of items left to right and spaces content evenly within the available space. Text will adjust to fit the screen size as well. */
 .Hub-Nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 20vw;
+    width: 28vw;
     font-size: 3vh;
     padding-bottom: 1vh;
-}
-.Tab {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    font-size: 2vw;
 }
 
+/* CSS for each tab itself. Right now this just gets rid of the terrible bullet points */
+.Tab {
+    display: flex;
+}
+
+/* Organizes content centered */
 .TabPanel {
     display: flex;
     align-content: center;
@@ -33,5 +40,5 @@
 }
 
 .TabPanel h1 {
-    font-size: 2.5vh;
+    font-size: 1.5vw;
 }

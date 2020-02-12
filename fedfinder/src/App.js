@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './assets/FedReserveLogo.svg';
 import floor from './assets/floor1.svg';
 import Info from './components/Info';

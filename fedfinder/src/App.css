@@ -20,12 +20,21 @@
   justify-content: space-around;
   padding-left: 1vw;
   padding-right: 1vw;
-
 }
 
 .App-Nav-Logo {
   height: 10vh;
   width: 24vh;
+}
+
+.App-Search {
+  width: 24vh;
+  height: 10vh;
+}
+
+.search-input {
+  width: 20vw;
+  height: 10 vh;
 }
 
 .App-header {
@@ -55,23 +64,13 @@
 
 .App-Info {
   justify-self: flex-end;
-  padding: 10px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
   border-radius: 10px;
   border-style: solid;
   border-color: #58595b;
   width: 30vw;
-  height: 80vh;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 78vh;
 }
