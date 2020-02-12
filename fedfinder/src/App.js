@@ -1,8 +1,24 @@
 import React, {Component} from 'react';
 import logo from './assets/FedReserveLogo.svg';
-import floor from './assets/floor1.svg';
+import Floor from './assets/floor1.svg';
 import Info from './components/Info';
+import { RadioSVGMap } from "react-svg-map";
 import './App.css';
+import Taiwan from '@svg-maps/taiwan';
+import "react-svg-map/lib/index.css";
+
+class Map extends React.Component {
+   
+    state = {
+        floor : Floor
+    }
+   
+    render() {
+      return (
+        <div className = 'Map'> <RadioSVGMap map={ Taiwan } /> </div>);
+    }
+  }
+
 
 class App extends React.Component {
   state = {
@@ -29,7 +45,7 @@ class App extends React.Component {
         <div className="App-Body">
 
           <div className="App-Display">
-            <img src={floor} />
+            <Map floor={Floor} />
           </div>
           <div className="App-Info" >
             <Info activehub={this.state.activehub} hubcontent={this.state.hubcontent} />
