@@ -7,19 +7,6 @@ import './App.css';
 import Taiwan from '@svg-maps/taiwan';
 import "react-svg-map/lib/index.css";
 
-class Map extends React.Component {
-   
-    state = {
-        
-    }
-   
-    render() {
-      return (
-        <div className = 'Map'> <RadioSVGMap map={ Floor } /> </div>);
-    }
-  }
-
-
 class App extends React.Component {
   state = {
     activehub : "Home",
@@ -43,9 +30,8 @@ class App extends React.Component {
         </div>
 
         <div className="App-Body">
-
           <div className="App-Display">
-            <Map floor={Floor} />
+            <RadioSVGMap map = { Floor } />
           </div>
           <div className="App-Info" >
             <Info activehub={this.state.activehub} hubcontent={this.state.hubcontent} />
