@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import logo from './assets/FedReserveLogo.svg';
-import Floor from './assets/floor1.svg';
+import Floor from './assets/floor1';
 import Info from './components/Info';
 import { RadioSVGMap } from "react-svg-map";
 import './App.css';
@@ -10,12 +10,12 @@ import "react-svg-map/lib/index.css";
 class Map extends React.Component {
    
     state = {
-        floor : Floor
+        
     }
    
     render() {
       return (
-        <div className = 'Map'> <RadioSVGMap map={ Taiwan } /> </div>);
+        <div className = 'Map'> <RadioSVGMap map={ Floor } /> </div>);
     }
   }
 
