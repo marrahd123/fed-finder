@@ -1,0 +1,37 @@
+.Info-Hub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+.Hub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.Hub-Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20vw;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+}
+.Tab {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.TabPanel {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+.TabPanel h1 {
+    font-size: 2.5vh;
+}
