@@ -1,7 +1,6 @@
 <svg 
 	xmlns="http://www.w3.org/2000/svg"
  	id="map" 
-	version="1.0"
  	viewBox="-50 -40 1150 750"
  	preserveAspectRatio="xMidYMid meet"
  	style="stroke-linejoin: round; stroke:#000; fill: none;">
@@ -28,7 +27,7 @@
 			id= "R1001"
 			data-name= "Room 1001"
 			data-id= "R1001"
-			style= "stroke-width: 3; fill: none;"
+			style= "stroke-width: 3;"
 
 			d=	"M 0 0, l 100 0, l 0 100, l -100 0, l 0 -100"
 		/>
@@ -37,7 +36,7 @@
 			id= "R1002"
 			data-name= "Room 1002"
 			data-id= "R1002"
-			style= "stroke-width: 3; fill: none;"
+			style= "stroke-width: 3; "
 
 			d=	"M 100 0, l 100 0, l 0 100, l -100 0, l 0 -100"
 		/>
