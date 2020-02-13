@@ -28,6 +28,26 @@
   width: 24vh;
 }
 
+.search-input{
+  border-radius: 5px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-right: 1vw;
+}
+
+.search-button{
+  border-radius: 5px;
+  border: black;
+  border-style: outset;
+  background-color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
 .App-header {
   background-color: #ffffff;
   min-height: 92vh;
@@ -48,9 +68,15 @@
 }
 
 .App-Display {
-  width: 60vw;
-  height: 60vh;
+  width: 60%;
+  height: 60%;
   align-items: center;
+}
+
+.App-Floors {
+  width: 5vw;
+  height: 5vh;
+  align-items: right;
 }
 
 .App-Info {

@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import {style} from 'react-tabs';
 import './Comp.css';
  
 class Info extends React.Component {

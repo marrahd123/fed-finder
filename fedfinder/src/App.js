@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './assets/FedReserveLogo.svg';
 import Floor from './assets/floor1';
 import Info from './components/Info';
 import { RadioSVGMap } from "react-svg-map";
 import './App.css';
-import Taiwan from '@svg-maps/taiwan';
 import "react-svg-map/lib/index.css";
 
 class App extends React.Component {
@@ -25,13 +24,18 @@ class App extends React.Component {
           <img src={logo} className="App-Nav-Logo" alt="logo"/>
           <div className="App-Search">
             <input type="text" className="search-input" placeholder="Search..."></input>
-            <a className="search-button" ></a>
+            <button className="search-button" >Search</button>
           </div>
         </div>
 
         <div className="App-Body">
           <div className="App-Display">
-            <RadioSVGMap map = { Floor } />
+            <div className = "App-Map">
+              <RadioSVGMap map = { Floor } />
+            </div>
+            <div className = "App-Floors">
+
+            </div>
           </div>
           <div className="App-Info" >
             <Info activehub={this.state.activehub} hubcontent={this.state.hubcontent} />
