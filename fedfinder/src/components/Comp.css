@@ -28,7 +28,14 @@
 
 /* CSS for each tab itself. Right now this just gets rid of the terrible bullet points */
 .Tab {
+<<<<<<< HEAD
     display: flex;
+=======
+    padding-left: 0;
+    padding-right: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+>>>>>>> f13d275fbeb9d64f428047d654b60e0fa33a3273
 }
 
 /* Organizes content centered */

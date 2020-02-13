@@ -1,5 +1,6 @@
 export default {"label":"Floor 1",
-                "viewBox":"-50 -40 1150 750",
+                "viewBox":"-20 -20 1120 720",
+                "preserveAspectRatio":"xMidYMid meet",
                 "locations":[
                             {"name":"N Wall","id":"W1","path":"M 0 0 l 1100 0"},
                             {"name":"E Wall","id":"W2","path":"M 1100 0 l 0 700"},
