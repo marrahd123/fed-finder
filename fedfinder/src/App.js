@@ -31,7 +31,7 @@ class App extends React.Component {
         <div className="App-Body">
           <div className="App-Display">
             <div className = "App-Map">
-              <RadioSVGMap map = { Floor } />
+              <RadioSVGMap map = { Floor }/>
             </div>
             <div className = "App-Floors">
 
