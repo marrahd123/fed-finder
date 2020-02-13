@@ -27,16 +27,6 @@
   width: 24vh;
 }
 
-<<<<<<< HEAD
-.App-Search {
-  width: 24vh;
-  height: 10vh;
-}
-
-.search-input {
-  width: 20vw;
-  height: 10 vh;
-=======
 .search-input{
   border-radius: 5px;
   padding-left: 1vw;
@@ -55,7 +45,6 @@
   padding-right: 1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
->>>>>>> f13d275fbeb9d64f428047d654b60e0fa33a3273
 }
 
 .App-header {
